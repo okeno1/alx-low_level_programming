@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *Description: _isalpha - a function that checks for alphabetic character
+ * _isalpha - a function that checks for alphabetic character
  * @c: single letter input
  * Return: 1 if c is a letter (lower or uppercase), 0 otherwise
  */
