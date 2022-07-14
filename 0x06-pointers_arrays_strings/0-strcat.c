@@ -9,12 +9,22 @@
  *Return: pointer to memory area s
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_strcat(char *dest, char *src)
 {
-	char *ptr = s;
 
-	while (n-- > 0)
-		*ptr++ = b;
+int i = 0;
+int j = 0;
 
-	return (s);
+while (dest[i] != '\0')
+{
+i++;
+}
+
+for (j = 0; src[j] != '\0'; j++)
+{
+dest[i + j] = src[j];
+}
+
+return (dest);
+
 }
