@@ -10,9 +10,9 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int x = 0, y;
+	int a = 0, b;
 
-	while (s[x])
+	while (s[a])
 	{
 		b = 0;
 
