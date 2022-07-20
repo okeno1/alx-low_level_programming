@@ -2,8 +2,7 @@
 
 /**
  *_puts_recursion - function name that prints a string
- *@s : string to be printed
- *
+ *@s: string to be printed
  *Return: Nothing
  */
 
@@ -16,4 +15,5 @@ void _puts_recursion(char *s)
 	}
 	else
 		putchar('\n');
+		return;
 }
