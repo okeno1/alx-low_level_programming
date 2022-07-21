@@ -1,9 +1,14 @@
-#include "main.h"
+#include <stdio.h>
+
+
 
 /**
- *_puts_recursion - function name that prints a string
- *@s: string to be printed
- *Return: Nothing
+ * _puts_recursion - Prints string followed by new line
+ *
+ *@s: Pointer to String
+ *
+ *Return: Void
+ *
  */
 
 void _puts_recursion(char *s)
@@ -15,5 +20,5 @@ void _puts_recursion(char *s)
 	}
 	else
 		putchar('\n');
-		return;
+
 }
