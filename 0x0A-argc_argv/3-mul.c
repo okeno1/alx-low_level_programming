@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	num1 = atoi(argv[1]);
-	num2 = atoi(arg[2]);
+	num2 = atoi(argv[2]);
 	result = num1 * num2;
 
 	print("%d\n", result);
