@@ -3,6 +3,7 @@
 
 /**
  *free_grid - function for freeing 2D array memory
+ *@grid: previously created 2D array
  *@height: rows of the 2D array
  *Return: Nothing
  */
@@ -13,7 +14,7 @@ void free_grid(int **grid, int height)
 
 	if (grid == NULL || height == 0)
 	{
-		return (NULL);
+		return;
 	}
 
 	for (i = 0; i < height; i++)
