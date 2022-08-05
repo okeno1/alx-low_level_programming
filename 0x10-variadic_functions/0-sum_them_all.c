@@ -1,18 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include <stdarg.h>
-#include "variadic_functions.h"
 
 /**
  *sum_them_all - variadic function to print sum of parameters
  *@n: first parameter
- *Return: total, the sum of parameters
+ *Return: tot, the sum of parameters or 0
  */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list tot;
 
-	va_start(tot, n);
 	int sum;
 	unsigned int i;
 
@@ -22,6 +18,8 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		return (0);
 	}
+
+	va_start(tot, n);
 
 	for (i = 0; i < n; i++)
 	{
