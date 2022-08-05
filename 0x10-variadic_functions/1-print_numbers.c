@@ -1,4 +1,3 @@
-#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -21,12 +20,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(pr, int));
 
-		if (separator == NULL)
+		if (separator != NULL && i < n - 1)
 		{
-			continue;
+			printf("%s", separator);
 		}
 	}
+	printf("\n");
 	va_end(pr);
-	printf('\n');
 
 }
