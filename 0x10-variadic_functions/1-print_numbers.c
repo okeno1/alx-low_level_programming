@@ -6,7 +6,7 @@
  *print_numbers - function entry
  *@separator: the char to be printed between numbers
  *@n: an int value
- *Return: Always 0 (Success);
+ *Return: void;
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
