@@ -1,6 +1,6 @@
 /*
  * File: 1-create_file.c
- * Auth: Brennan D Baraban
+ * Auth: Peter Okeno
 */
 #include "main.h"
 /**
